@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<style>
+
+    #image{
+        max-width: 200px;
+        width: 100%;
+    }
+    #image img{
+        width:100%;
+        overflow: hidden;
+    }
+    #copy{
+        text-align: center;
+        color: #ADABAB;
+    }
+    #infos{
+        color:#aaa;
+    }
+    #orange{
+        color:orange;
+        font-style: italic;
+        padding: 0px 3px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #orangeo{
+        color: orange;
+    }
+    #brand{
+        color:#999;
+        font-size: 18px;
+    }
+    
+</style>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="am_joseph.html" class="navbar-brand"><a name="top"></a><span id="brand"><span id="orange">i</span>-C<span id="orangeo">O</span>DE</span></a>
+            </div>
+            <ul class="nav pull-right navbar-nav">
+                <li><a href="am_joseph.html#about">About</a></li>
+                <li><a href="am_joseph.html#contacts">contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row"><a name="bio"></a>
+            <div class="col-sm-4 col-xs-3">
+                <div id="image">
+                <img src="images/pic.jpg" alt="Joseph">
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-9">
+                <p>
+                    <h3>Bio</h3>
+                    <br>
+                    Name: Joseph Mwangi <br>
+                    Age: 23 <br>
+                    Nationality: Kenya <br>
+                    Profession: Computer Scientist <br>
+                    <br>
+                    passion: Coding
+                </p>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <p>
+                    <h3>Story</h3>
+                    I joined campus in the year 2017 and begun my programming journer as an absolute begginer. As a programmer I,am very passionate to learn hot tecnologies and apply them in my daily life. 
+                    <blockquote>
+                        Its my beggining and I want to move Forward Forever, for there is no limit for me.
+                        <cite>Joseph</cite>
+                    </blockquote>
+                </p>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <h4>Skills set</h4>
+                <p>
+                    <ul class="list">
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>Web programming</li>
+                        <li>SQL</li>
+                        <li>Flask</li>
+                    </ul>
+                </p>
+
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <h4>Python Skills</h4>
+                <pre>
+# My class
+class Programmer():
+    def __init__(self):
+        var_python = "I love python"
+        return var_python 
+
+programmer = Programmer()
+print (programmer)
+                </pre>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <h4>SQL Skills</h4>
+                <pre>
+# SQL
+
+create database my_database;
+
+create table my_table(id int() primary key,
+                        Name varchar(10)NOT Null);
+INSERT INTO my_table (id, Name) VALUES(10,"Joseph")
+
+
+
+                </pre>
+
+            </div><div class="col-xs-12 col-sm-6">
+                <h4>Java Skills</h4>
+                <pre>
+# My Java class
+class Programmer{
+
+    public static void main(String agrs[]){
+
+        String the_programmer = "I love Java";
+        System.out.print(the_programmer);
+
+    }
+}
+                </pre>
+
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <h4>Flask Skills</h4>
+                <pre>
+# My flask app
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def home_page():
+    return "I love Flask"
+
+if __name__ == "__main__":
+    app.run()
+
+
+
+
+
+
+
+
+
+                </pre>
+
+            </div><div class="col-xs-12 col-sm-6">
+                <h4>Java Skills</h4>
+                <pre>
+#Web devs
+
+&lt;DOCTYPE HTML&gt;
+&lt;HTML&gt;
+&lt;head&gt;
+    &lt;title&gt;Web devs&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class="my_class"&gt;
+        &lt;h1&gt;Web devs&lt;/h1&gt;
+
+        &lt;-- php script --&gt; 
+        &lt;?php
+            echo 'I love PHP';
+        ?&gt;
+
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/HTML&gt;
+
+                </pre>
+
+            </div>
+
+        </div>
+
+        <div id="infos" class=" navbar-inverse row">
+            <div class="col-xs-12 col-sm-4">
+                <a name ="about"></a>
+                <h4 class="glyphicon glyphicon-info-sgn" > about</h4>
+                <p>This website is a project by Joseph Mwangi with support from a couple of fellow programmers. He hereby list some of my skill as a programmer and a bit of my bio. </p>
+                
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <a name ="contacts"></a>
+                <h4>contacts</h4>
+                <span class="glyphicon glyphicon-phone"> Mobile:</span> +254 743282283 <br>
+                <span class="glyphicon glyphicon-mail"> email:</span> josephmwangi.jgm@gmail.com
+                
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <h4>Quick links</h4>
+                <ul class="nav navbar-nav">
+                    <li ><a class="glyphicon glyphicon-home" href="am_joseph.html#top"> Home</a></li>
+                    <li><a href="am_joseph.html#bio">Bio</a></li>
+                    <li><a href="">Skill set</a></li>
+                </ul>
+                
+            </div>
+        </div>
+        <div id="copy" class="navbar-inverse row">
+            <br><br>
+            <span id="copy" >&copy;2020 | Joseph Mwangi</span>
+            <br><br>
+        </div>
+        
+
+    </div>
+</body>
+</html>
